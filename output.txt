@@ -1,0 +1,168 @@
+| vtype id lparen vtype id comma vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype | id lparen vtype id comma vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id | lparen vtype id comma vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen | vtype id comma vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen vtype | id comma vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen vtype id | comma vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen vtype id comma | vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen vtype id comma vtype | id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen vtype id comma vtype id | rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen vtype id comma vtype id MOREARGS | rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen vtype id MOREARGS | rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG | rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen | lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace | if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if | lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen | boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen boolstr | comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen CONDT | comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen CONDT comp | boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen CONDT comp boolstr | rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen CONDT comp CONDT | rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen CONDT comp COND | rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND | rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen | lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace | rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK | rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace | else lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else | lbrace while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace | while lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while | lparen boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen | boolstr rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen boolstr | rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen CONDT | rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen COND | rparen lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen COND rparen | lbrace rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen COND rparen lbrace | rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen COND rparen lbrace BLOCK | rbrace rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace while lparen COND rparen lbrace BLOCK rbrace | rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace STMT | rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace STMT BLOCK | rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace BLOCK | rbrace return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace else lbrace BLOCK rbrace | return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace if lparen COND rparen lbrace BLOCK rbrace ELSE | return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace STMT | return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace STMT BLOCK | return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace BLOCK | return boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace BLOCK return | boolstr semi rbrace end 
+
+vtype id lparen ARG rparen lbrace BLOCK return boolstr | semi rbrace end 
+
+vtype id lparen ARG rparen lbrace BLOCK return RHS | semi rbrace end 
+
+vtype id lparen ARG rparen lbrace BLOCK return RHS semi | rbrace end 
+
+vtype id lparen ARG rparen lbrace BLOCK RETURN | rbrace end 
+
+vtype id lparen ARG rparen lbrace BLOCK RETURN rbrace | end 
+
+FDECL | end 
+
+FDECL CODE | end 
+
+CODE | end 
+
+Input: FDECL.txt
+
+accepted!
+
+CODE
+└──FDECL
+   └──vtype
+   └──id
+   └──lparen
+   └──ARG
+      └──vtype
+      └──id
+      └──MOREARGS
+         └──comma
+         └──vtype
+         └──id
+         └──MOREARGS
+   └──rparen
+   └──lbrace
+   └──BLOCK
+      └──STMT
+         └──if
+         └──lparen
+         └──COND
+            └──CONDT
+               └──boolstr
+            └──comp
+            └──COND
+               └──CONDT
+                  └──boolstr
+         └──rparen
+         └──lbrace
+         └──BLOCK
+         └──rbrace
+         └──ELSE
+            └──else
+            └──lbrace
+            └──BLOCK
+               └──STMT
+                  └──while
+                  └──lparen
+                  └──COND
+                     └──CONDT
+                        └──boolstr
+                  └──rparen
+                  └──lbrace
+                  └──BLOCK
+                  └──rbrace
+               └──BLOCK
+            └──rbrace
+      └──BLOCK
+   └──RETURN
+      └──return
+      └──RHS
+         └──boolstr
+      └──semi
+   └──rbrace
+└──CODE
