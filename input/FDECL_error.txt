@@ -1,0 +1,1 @@
+vtype id lparen vtype id comma vtype id rparen lbrace if lparen boolstr comp boolstr rparen lbrace rbrace else lbrace while lparen boolstr rparen lbrace rbrace rbrace boolstr semi rbrace

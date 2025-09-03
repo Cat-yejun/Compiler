@@ -1,0 +1,1 @@
+class id vtype id semi rbrace

@@ -108,7 +108,7 @@ FDECL CODE | end
 
 CODE | end 
 
-Input: FDECL.txt
+Input: input/FDECL.txt
 
 accepted!
 
